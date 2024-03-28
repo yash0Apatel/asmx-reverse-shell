@@ -8,7 +8,7 @@ This repository contains an asmx reverse shell for achieving code execution usin
    - Upload `ShellCmdService.asmx` to the target machine. This can be done through a vulnerable file upload functionality on a web application.
 
 2. **Execute Commands:**
-   - Send a POST request to the server using Burp Suite.
+   - Send a POST request to target using Burp Suite.
 
    Example request:
 
