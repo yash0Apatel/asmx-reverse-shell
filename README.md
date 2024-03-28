@@ -1,4 +1,4 @@
-# asmx-reverse-shell
+# asmx reverse shell
 
 This repository contains an asmx reverse shell for achieving code execution using file upload functionality.
 
